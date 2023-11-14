@@ -1,1 +1,34 @@
 /*  your css code here. If applicable */
+*{
+	margin:0px;
+	padding:0px;
+}
+.main{
+	width:100vw;
+	height:100vh;
+	background-image: url('https://images.ctfassets.net/usf1vwtuqyxm/3SQ3X2km8wkQIsQWa02yOY/8801d7055a3e99dae8e60f54bb4b1db8/HarryPotter_WB_F4_HarryPotterMidshot_Promo_080615_Port.jpg?w=914&q=70&fm=jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.list{
+	width:50%;
+	height:100%;
+	margin:0% 25%;
+	display:flex;
+	justify-content:center;
+	background-color:white;
+	z-index:1;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#bands{
+	list-style-type:square;
+	justify-content:flex-start;
+	text-align:left;
+}
+.list ul li{
+	padding:8px 0px;
+	margin:0.1%;
+	
+	box-border:1px solid gray;
+}
